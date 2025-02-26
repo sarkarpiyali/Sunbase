@@ -114,3 +114,7 @@ body {
 #saveForm:hover {
   background: darkgreen;
 }
+
+.material-symbols-outlined{
+  color: black;
+}

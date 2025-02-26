@@ -42,7 +42,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const deleteButton = document.createElement("button");
     deleteButton.classList.add("delete-btn");
-    deleteButton.innerHTML = `<i class="fa-solid fa-trash-can"></i>`;
+    deleteButton.innerHTML = `<span class="material-symbols-outlined">
+delete
+</span>`;
     deleteButton.addEventListener("click", () => element.remove());
 
     element.appendChild(label);
